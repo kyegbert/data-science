@@ -8,7 +8,7 @@ This Dockerfile replicates the R environment I used for Coursera Data Science Sp
 
 When launching the container, share a host directory with the container for access to R scripts, such as: 
 
-`docker run --name r-coursera -it --user docker -v $(pwd)/<host-path-to-shared-volume>:/<container-path-to-shared-volume> <image_id>`.
+`docker run --name r-coursera -it -p 3838:3838 --user docker -v $(pwd)/<host-path-to-shared-volume>:/<container-path-to-shared-volume> <image_id>`.
 
 R scripts are run from the command line (bash) and not via RStudio.
 
@@ -23,6 +23,10 @@ R scripts that include functions that call graphics devices or output plots need
 R scripts that utilize Pandoc to output PDFs, HTML, etc. need to be run like so: 
 
 `xvfb-run Rscript -e 'library(rmarkdown); rmarkdown::render("/<container-path-to-rscript>/<rscript.Rmd>")'`
+
+Run Shiny apps as below. Pointing the `shiny.host` to a non-loopback IP allows the app to be accessed outside the container.
+
+`xvfb-run Rscript -e 'library(methods); shiny::runApp("/<container-path-to-project-directory>/", port=3838, launch.browser=FALSE, host = getOption("shiny.host", "0.0.0.0"))'`
 
 ### License
 

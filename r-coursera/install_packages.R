@@ -139,7 +139,8 @@ pkgs <- c("/src/contrib/Archive/acepack/acepack_1.3-3.3.tar.gz",
           "/src/contrib/Archive/tidyr/tidyr_0.2.0.tar.gz",
           "/src/contrib/Archive/markdown/markdown_0.7.4.tar.gz",
           "/src/contrib/Archive/knitr/knitr_1.9.tar.gz",
-          "/src/contrib/Archive/rmarkdown/rmarkdown_0.5.1.tar.gz"
+          "/src/contrib/Archive/rmarkdown/rmarkdown_0.5.1.tar.gz",
+          "/src/contrib/Cairo_1.5-9.tar.gz"
     )
 
 # Retry packages that might have been moved to archive

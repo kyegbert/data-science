@@ -26,6 +26,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         gfortran \
         libjpeg-dev \
         libbz2-1.0 \
+        libcairo2-dev \
         libcurl4-openssl-dev \
         libpcre3 \
         libreadline-dev \
