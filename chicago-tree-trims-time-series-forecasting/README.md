@@ -9,7 +9,7 @@ Using time series forecasting, predict the expected volume of 311 tree trim open
 * Data Wrangling
 * Exploratory Data Analysis
 * Data Visualization
-* Grid Seach
+* Grid Search
 * Training and Test Sets
 * Time Series Forecasting
 * Seasonal ARIMA
