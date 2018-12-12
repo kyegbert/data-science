@@ -38,8 +38,8 @@ How well do these NLP techniques surface words associated with this collection o
 1. Python 3.6
 2. Graphviz 2.40.1 (http://graphviz.org)
   1. The version of Graphviz used for this project was installed on MacOS 10.13.6 via Homebrew 1.7.7.
-  1. The PyGraphviz package, which is listed in `requirements.txt`, depends on Graphviz. When installing PyGraphviz, you might need to specify the location of the Graphviz library on your local system, depending on which method you used to install Graphviz.
-  2. For example: `pip install pygraphviz==1.5 --install-option="--include-path=/usr/local/Cellar/graphviz" --install-option="--library-path=/usr/local/Cellar/graphviz"`
+  2. The PyGraphviz package, which is listed in `requirements.txt`, depends on Graphviz. When installing PyGraphviz, you might need to specify the location of the Graphviz library on your local system, depending on which method you used to install Graphviz.
+  3. For example: `pip install pygraphviz==1.5 --install-option="--include-path=/usr/local/Cellar/graphviz" --install-option="--library-path=/usr/local/Cellar/graphviz"`
 3. Install project requirements using `pip install -r requirements.txt`.
 
 ### Notebooks Execution Order
