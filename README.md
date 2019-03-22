@@ -23,4 +23,4 @@ Using the Natural Language Processing techniques of sentiment analysis, TF-IDF w
 
 ## License
 
-MIT License. Copyright (c) 2018 Kim Y. Egbert, except where otherwise noted in additional License files.
+MIT License. Copyright (c) 2019 Kim Y. Egbert, except where otherwise noted in additional License files.
