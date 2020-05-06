@@ -1,6 +1,9 @@
 # MacOS
 .DS_Store
 
+# Pycharm
+.idea
+
 # Python
 
 # Byte-compiled / optimized / DLL files
