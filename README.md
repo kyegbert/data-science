@@ -21,7 +21,7 @@ Using binary classification algorithms, identify the physical characteristics of
 [Detecting Literary Themes in James Joyce's Works Using Natural Language Processing](./notebooks/james-joyce-natural-language-processing)  
 Using the Natural Language Processing techniques of sentiment analysis, TF-IDF weighting, topic modeling and bigram networks to accurately detect the literary themes of the early twentieth century writer James Joyce. Techniques and technologies used in this project include Python, Pandas, Jupyter Notebooks, machine learning, unstructured data, data preprocessing, data visualization, Natural Language Processing, sentiment analysis, topic modeling, TF-IDF, Latent Dirichlet Allocation, Non-negative Matrix Factorization, Markov chain, NLTK, scikit-learn, Matplotlib, and network graphs.
 
-### Requirements
+## Requirements
 
 1. Docker
 
@@ -35,4 +35,4 @@ Using the Natural Language Processing techniques of sentiment analysis, TF-IDF w
 
 ## License
 
-MIT License. Copyright (c) 2019 Kim Y. Egbert, except where otherwise noted in additional License files.
+MIT License. Copyright (c) 2020 Kim Y. Egbert, except where otherwise noted in additional License files.
